@@ -1,0 +1,91 @@
+/* Reset and Font */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #ffe6f0;
+  padding: 20px;
+}
+
+/* Heading */
+.main-heading {
+  text-align: center;
+  font-size: 28px;
+  color: #b30059;
+  margin-bottom: 30px;
+}
+
+/* Card Container Layout */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual Product Card */
+.card {
+  background-color: #ffcce0;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ff99cc;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Product Image */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Title */
+.card h2 {
+  color: #b30059;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.card p {
+  color: #4d0039;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Price as Paragraph */
+.price-tag {
+  font-size: 18px;
+  color: #800040;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Button Styling */
+.btn {
+  background-color: #ff66a3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e60073;
+}
+
+/* Responsive for Small Screens */
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}
